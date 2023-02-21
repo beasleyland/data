@@ -50,7 +50,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         REPOSITORY_NAME: sustainabledevelopment-beasleyland/production-data
-        ACCESS_TOKEN: ${{ secrets.token }}
+        ACCESS_TOKEN: ${{ secrets.new_token }}
         BRANCH: gh-pages
         FOLDER: _site
         CLEAN: true
