@@ -39,6 +39,246 @@
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
+      "path": "3-b-1/data.csv",
+      "name": "3-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of the target population covered by all vaccines included in their national programme"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Under‑5 mortality rate"
+    },
+    {
+      "path": "3-2-2/data.csv",
+      "name": "3-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Neonatal mortality rate"
+    },
+    {
+      "path": "3-7-1/data.csv",
+      "name": "3-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods"
+    },
+    {
+      "path": "3-a-1/data.csv",
+      "name": "3-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
+    },
+    {
+      "path": "3-1-2/data.csv",
+      "name": "3-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of births attended by skilled health personnel"
+    },
+    {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Maternal mortality ratio"
+    },
+    {
+      "path": "3-7-2/data.csv",
+      "name": "3-7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group"
+    },
+    {
       "path": "7-3-1/data.csv",
       "name": "7-3-1",
       "profile": "tabular-data-resource",
@@ -2055,30 +2295,6 @@
       "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff"
     },
     {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Under‑5 mortality rate"
-    },
-    {
       "path": "4-1-2/data.csv",
       "name": "4-1-2",
       "profile": "tabular-data-resource",
@@ -3207,30 +3423,6 @@
       "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments"
     },
     {
-      "path": "3-7-1/data.csv",
-      "name": "3-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods"
-    },
-    {
       "path": "8-5-1/data.csv",
       "name": "8-5-1",
       "profile": "tabular-data-resource",
@@ -4191,30 +4383,6 @@
       "title": "(a) Number of countries that have established national targets in accordance with or similar to Kunming-Montreal Global Biodiversity Framework Target 14 in their national biodiversity strategy and action plans and the progress reported towards these targets; and (b) integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting"
     },
     {
-      "path": "3-7-2/data.csv",
-      "name": "3-7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group"
-    },
-    {
       "path": "17-12-1/data.csv",
       "name": "17-12-1",
       "profile": "tabular-data-resource",
@@ -4285,30 +4453,6 @@
         ]
       },
       "title": "Ratio of land consumption rate to population growth rate"
-    },
-    {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Maternal mortality ratio"
     },
     {
       "path": "16-7-1/data.csv",
@@ -4647,30 +4791,6 @@
       "title": "Forest area as a proportion of total land area"
     },
     {
-      "path": "3-b-1/data.csv",
-      "name": "3-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of the target population covered by all vaccines included in their national programme"
-    },
-    {
       "path": "5-a-1/data.csv",
       "name": "5-a-1",
       "profile": "tabular-data-resource",
@@ -4983,30 +5103,6 @@
       "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources"
     },
     {
-      "path": "3-1-2/data.csv",
-      "name": "3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of births attended by skilled health personnel"
-    },
-    {
       "path": "16-6-2/data.csv",
       "name": "16-6-2",
       "profile": "tabular-data-resource",
@@ -5317,30 +5413,6 @@
         ]
       },
       "title": "Manufacturing employment as a proportion of total employment"
-    },
-    {
-      "path": "3-2-2/data.csv",
-      "name": "3-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Neonatal mortality rate"
     },
     {
       "path": "1-a-1/data.csv",
@@ -5773,30 +5845,6 @@
         ]
       },
       "title": "Proportion of total research budget allocated to research in the field of marine technology"
-    },
-    {
-      "path": "3-a-1/data.csv",
-      "name": "3-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
     },
     {
       "path": "10-7-1/data.csv",
