@@ -43,8 +43,8 @@ inputs:
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
   - class: InputSdmxMl_StructureSpecific
-    source: data/downloaded-structure-specific-data.xml
-    dsd: data/downloaded-dsd.xml
+    source: https://sn.sdmx.afdb.org/ns-ws/rest/data/SN1,DF_SDG_SN_MAP,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD&format=structurespecificdata
+    dsd: https://sn.sdmx.afdb.org/ns-ws/rest/dataflow/SN1/DF_SDG_SN_MAP/latest?references=all
     dimension_map: 
       REF_AREA|COUNTRY CODE: '' 
     drop_dimensions: 
@@ -55,6 +55,9 @@ inputs:
     import_codes: true 
     import_series_attributes: true 
     import_observation_attributes: true
+    request_params:
+      headers:
+        User-Agent: Open-SDG-Build-1
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
@@ -93,7 +96,10 @@ translations:
   - class: TranslationInputYaml
     source: translations
   - class: TranslationInputSdmx
-    source: data/downloaded-dsd.xml
+    source: https://sn.sdmx.afdb.org/ns-ws/rest/dataflow/SN1/DF_SDG_SN_MAP/latest?references=all
+    request_params:
+      headers:
+        User-Agent: Open-SDG-Build-1
 
 # Reporting status extra fields
 # -----------------------------
