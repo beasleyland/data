@@ -42,9 +42,9 @@ inputs:
   - class: InputCsvData
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
-  - class: InputSdmxMl_StructureSpecific
-    source: https://sn.sdmx.afdb.org/ns-ws/rest/data/SN1,DF_SDG_SN_MAP,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD&format=structurespecificdata
-    dsd: https://sn.sdmx.afdb.org/ns-ws/rest/dataflow/SN1/DF_SDG_SN_MAP/latest?references=all
+  - class: InputSdmxMl_Structure
+    source: https://cm.sdmx.afdb.org/ns-ws/rest/data/CM1,DF_TEST,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
+    dsd: https://cm.sdmx.afdb.org/ns-ws/rest/datastructure/CM1/SDG/1.0/?detail=Full&references=Descendants
     dimension_map: 
       REF_AREA|COUNTRY CODE: '' 
     drop_dimensions: 
@@ -96,7 +96,7 @@ translations:
   - class: TranslationInputYaml
     source: translations
   - class: TranslationInputSdmx
-    source: https://sn.sdmx.afdb.org/ns-ws/rest/dataflow/SN1/DF_SDG_SN_MAP/latest?references=all
+    source: https://cm.sdmx.afdb.org/ns-ws/rest/datastructure/CM1/SDG/1.0/?detail=Full&references=Descendants
     request_params:
       headers:
         User-Agent: Open-SDG-Build-1
